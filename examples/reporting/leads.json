@@ -1,0 +1,53 @@
+[
+  {
+    "id": "R-101",
+    "name": "North Studio (fictional)",
+    "category": "Demo record",
+    "address": "Example Street 1, Kraków",
+    "district": "Sample district",
+    "phone": "+48000000001",
+    "phone_source": "https://example.org/fictional",
+    "business_source": "https://example.org/fictional",
+    "district_source": "https://example.org/fictional",
+    "verified_on": "2026-11-05",
+    "opportunity": "Fictional sample record for workbook generation only",
+    "website_evidence": "Demo fixture, not a researched business",
+    "priority": "Medium",
+    "website_status": "Missing",
+    "research_notes": "Entirely fictional; no contact permission or buying intent is claimed"
+  },
+  {
+    "id": "R-102",
+    "name": "River Workshop (fictional)",
+    "category": "Demo record",
+    "address": "Example Street 2, Kraków",
+    "district": "Sample district",
+    "phone": "+48000000002",
+    "phone_source": "https://example.org/fictional",
+    "business_source": "https://example.org/fictional",
+    "district_source": "https://example.org/fictional",
+    "verified_on": "2026-11-05",
+    "opportunity": "Fictional sample record for workbook generation only",
+    "website_evidence": "Demo fixture, not a researched business",
+    "priority": "Medium",
+    "website_status": "Missing",
+    "research_notes": "Entirely fictional; no contact permission or buying intent is claimed"
+  },
+  {
+    "id": "R-103",
+    "name": "Hill Office (fictional)",
+    "category": "Demo record",
+    "address": "Example Street 3, Kraków",
+    "district": "Sample district",
+    "phone": "+48000000003",
+    "phone_source": "https://example.org/fictional",
+    "business_source": "https://example.org/fictional",
+    "district_source": "https://example.org/fictional",
+    "verified_on": "2026-11-05",
+    "opportunity": "Fictional sample record for workbook generation only",
+    "website_evidence": "Demo fixture, not a researched business",
+    "priority": "Medium",
+    "website_status": "Missing",
+    "research_notes": "Entirely fictional; no contact permission or buying intent is claimed"
+  }
+]
