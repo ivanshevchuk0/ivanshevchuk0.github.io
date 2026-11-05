@@ -21,3 +21,7 @@ Start with an expected result and a public URL or redacted failing example. Plea
 Static HTML/CSS/JavaScript. Run locally with python3 -m http.server 8874 --bind 127.0.0.1. GitHub Pages publishes main at repository root; root-relative links assume this user-site domain.
 
 The contact form prepares a mailto draft and sends nothing itself. No testimonials, paid customers, income or production certification are claimed. GitHub Pages does not apply the optional _headers file.
+
+## Export reconciliation preflight
+
+[Runnable personal demonstration](examples/reconciliation/) checks unique-key overlap across two fictional CSV exports, rejects ambiguous joins and has 10 passing tests. It does not connect to private systems or claim financial attribution.
