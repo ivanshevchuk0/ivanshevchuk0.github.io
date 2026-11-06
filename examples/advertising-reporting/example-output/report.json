@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "mode": "offline",
+  "campaigns": [
+    {
+      "source": "google",
+      "currency": "PLN",
+      "campaign_id": "001",
+      "campaign": "Fictional office cleaning search",
+      "impressions": "4000",
+      "clicks": "100",
+      "spend": "200.00",
+      "conversions": "5",
+      "conversion_value": null,
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-02",
+      "reported_days": 2,
+      "ctr_pct": "2.50",
+      "cpc": "2.00",
+      "cost_per_platform_conversion": "40.00",
+      "platform_roas": null,
+      "checks": [
+        "Conversion value missing for at least one row; ROAS unavailable."
+      ]
+    },
+    {
+      "source": "meta",
+      "currency": "PLN",
+      "campaign_id": "002",
+      "campaign": "Fictional quote form promotion",
+      "impressions": "9000",
+      "clicks": "100",
+      "spend": "200.00",
+      "conversions": "0",
+      "conversion_value": null,
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-02",
+      "reported_days": 2,
+      "ctr_pct": "1.11",
+      "cpc": "2.00",
+      "cost_per_platform_conversion": null,
+      "platform_roas": null,
+      "checks": [
+        "No platform conversions recorded: verify goal definitions, attribution delay and tracking before changing spend.",
+        "Conversion value missing for at least one row; ROAS unavailable."
+      ]
+    },
+    {
+      "source": "tiktok",
+      "currency": "EUR",
+      "campaign_id": "003",
+      "campaign": "Fictional coffee store video",
+      "impressions": "5000",
+      "clicks": "100",
+      "spend": "100.00",
+      "conversions": "3",
+      "conversion_value": "150.00",
+      "period_start": "2026-10-01",
+      "period_end": "2026-10-02",
+      "reported_days": 2,
+      "ctr_pct": "2.00",
+      "cpc": "1.00",
+      "cost_per_platform_conversion": "33.33",
+      "platform_roas": "1.50",
+      "checks": []
+    }
+  ],
+  "limitations": [
+    "Platform-attributed conversions are not verified unique leads, sales, profit or cash receipts.",
+    "Do not add conversions or conversion value across platforms: attribution may overlap.",
+    "Currencies are kept separate; no exchange-rate conversion is performed.",
+    "The export cannot prove that conversion tracking or consent is installed correctly.",
+    "Account timezones, date ranges and attribution windows must be agreed before comparison.",
+    "Flags are review questions, not campaign recommendations or causal conclusions."
+  ]
+}
