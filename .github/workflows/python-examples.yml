@@ -1,0 +1,20 @@
+# Pages deployment currently does not run these regression suites.
+name: Python example tests
+on:
+  push:
+    paths: ['examples/**', '.github/workflows/python-examples.yml']
+  pull_request:
+    paths: ['examples/**', '.github/workflows/python-examples.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - run: python -m unittest discover -s examples/reconciliation -p 'test_*.py' -v
+      - run: python -m unittest discover -s examples/advertising-reporting -p 'test_*.py' -v
